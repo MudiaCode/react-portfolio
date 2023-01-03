@@ -1,6 +1,7 @@
 import React from "react";
 
 function Section1() {
+
   return (
     <section>
       <div className="grid xl:grid-cols-7 lg:grid-cols-7 md:grid-cols-7  sm:grid-cols-1 gap-0  mx-16  mt-36">
