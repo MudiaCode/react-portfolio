@@ -12,8 +12,8 @@ function NavBar() {
             className="  h-14 sm:h-12 xs:h-12 xxs:h-12 drop-shadow-lg absolute hover:scale-90 transform transition duration-500"
           />
         </a>
-        <button className="text-cyan-400 border-cyan-400 lg:hidden md:hidden xl:hidden p-1.5 rounded space-y-2 mt-2">
-          <div className="w-4 h-1 bg-cyan-400 rounded "></div>
+        <button className="text-cyan-400 border-cyan-400 lg:hidden md:hidden xl:hidden p-1.5 rounded space-y-2 mt-2 group">
+          <div className="w-4 h-1 bg-cyan-400 rounded group-hover:translate-x-2.5 transform transition duration-300"></div>
           <div className="w-7 h-1 bg-cyan-400 rounded"></div>
           <div className="w-7 h-1 bg-cyan-400 rounded"></div>
         </button>
