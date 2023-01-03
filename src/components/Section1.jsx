@@ -14,9 +14,9 @@ function Section1() {
           <h1 className=" font-BebasNeue text-8xl font-bold text-gray-300">
             I CREATE WEBSITES..
           </h1>
-          <p className=" text-white opacity-60">
-            I'm a front-end software engineer making websites that you{" "}
-            <span className=" line-through">want </span> desire.
+          <p className=" text-white">
+            I'm a front-end software developer making websites that you
+            <span className=" text-cyan-400 opacity-100"> desire</span>
           </p>
         </div>
         <img className=" float w-4/6" src="src/images/Snap (2).png" alt="" />
