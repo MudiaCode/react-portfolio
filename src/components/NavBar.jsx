@@ -5,14 +5,15 @@ function NavBar() {
     <div>
       <nav className="flex space-x-0 justify-between my-8 mx-8 font-JetBrainsMono">
         <a href="">
+          {/* logo */}
           <img
             src="src/images/mudialogo.png"
             alt=""
-            className=" h-14 drop-shadow-lg"
+            className="  h-14 sm:h-12 xs:h-12 xxs:h-12 drop-shadow-lg absolute hover:scale-90 transform transition duration-500"
           />
         </a>
 
-        <ul className=" flex space-x-16 text-xs  my-5  font-thin text-white ">
+        <ul className=" flex space-x-16 text-xs  my-5  font-thin text-white md:text-[0.7rem] sm:text-[0.6rem] sm:invisible xs:invisible xxs:invisible" >
           <li>
             <a
               className="hover:text-cyan-400 transform transition duration-500"
