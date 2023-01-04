@@ -1,12 +1,11 @@
 import React from "react";
 
 function Section1() {
-
   return (
     <section>
-      <div className="grid xl:grid-cols-7 lg:grid-cols-7 md:grid-cols-7  sm:grid-cols-1 gap-0  mx-16  mt-36">
-        <div className=" leading-[5rem] m-5 col-span-4 md:col-span-7">
-          <p className=" text-cyan-400 font-bold font-JetBrainsMono sm:text-sm xs:text-xs xxs:text-[0.63rem]">
+      <div className="mx-16 mt-36 mb-0 grid  gap-0 sm:grid-cols-1  md:grid-cols-7  lg:grid-cols-7 xl:grid-cols-7">
+        <div className=" col-span-4 m-5 leading-[5rem] md:col-span-7">
+          <p className=" font-JetBrainsMono font-bold text-cyan-400 sm:text-sm xs:text-xs xxs:text-[0.63rem]">
             Hi, my name is
           </p>
           <h1 className=" font-BebasNeue text-8xl  font-bold text-gray-500  sm:text-7xl sm:leading-[7rem] xs:text-6xl xs:leading-[7rem] xxs:text-5xl xxs:leading-[1.2rem]">
@@ -23,7 +22,7 @@ function Section1() {
 
         {/* image */}
         <img
-          className=" float md:invisible sm:invisible xs:invisible xxs:invisible col-span-3 w-5/6"
+          className=" float col-span-3 w-5/6 sm:invisible md:invisible xs:invisible xxs:invisible"
           src="src/images/Snap (2).png"
           alt=""
         />
@@ -31,5 +30,4 @@ function Section1() {
     </section>
   );
 }
-
 export default Section1;
